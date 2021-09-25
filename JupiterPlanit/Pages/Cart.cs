@@ -86,7 +86,7 @@ namespace JupiterPlanit.Pages
                 //Item quantity
                 int[] itemQuantity = new int[3] { 2, 5, 1 };
                     //actual subtotal value for Item
-                float actualValue =  Convert.ToInt32(itemQuantity)* float.Parse(itemPrice.Replace('$', ' '));
+                float actualValue =  itemQuantity[i-1] * float.Parse(itemPrice.Replace('$', ' '));
 
                 Thread.Sleep(2000);
 

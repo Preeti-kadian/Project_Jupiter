@@ -102,15 +102,22 @@ namespace JupiterPlanit.Pages
             Thread.Sleep(3000);
 
             //Verify if displayed displayed is same as expected
-            if (actualMessageText == expectedMessageText)
+            try
             {
-                Thread.Sleep(2000);
-       
-                Assert.IsTrue(true,"Test Passed");
+                if (actualMessageText == expectedMessageText)
+                {
+                    Thread.Sleep(2000);
+
+                    Assert.IsTrue(true, "Test Passed, Message saved");
+                }
+                else
+                {
+                    Assert.IsFalse(false, "Test failed");
+                }
             }
-            else
+            catch(Exception ex)
             {
-                Assert.IsFalse(false, "Test failed");
+                Console.WriteLine(ex.Message);
             }
         }
 

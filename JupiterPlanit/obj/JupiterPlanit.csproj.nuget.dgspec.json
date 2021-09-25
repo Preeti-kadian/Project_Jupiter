@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/preetikadian/Desktop/JupiterPlanit/JupiterPlanit/JupiterPlanit/JupiterPlanit.csproj": {}
+    "E:\\JupiterPlanit\\JupiterPlanit\\JupiterPlanit.csproj": {}
   },
   "projects": {
-    "/Users/preetikadian/Desktop/JupiterPlanit/JupiterPlanit/JupiterPlanit/JupiterPlanit.csproj": {
+    "E:\\JupiterPlanit\\JupiterPlanit\\JupiterPlanit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/preetikadian/Desktop/JupiterPlanit/JupiterPlanit/JupiterPlanit/JupiterPlanit.csproj",
+        "projectUniqueName": "E:\\JupiterPlanit\\JupiterPlanit\\JupiterPlanit.csproj",
         "projectName": "JupiterPlanit",
-        "projectPath": "/Users/preetikadian/Desktop/JupiterPlanit/JupiterPlanit/JupiterPlanit/JupiterPlanit.csproj",
-        "packagesPath": "/Users/preetikadian/.nuget/packages/",
-        "outputPath": "/Users/preetikadian/Desktop/JupiterPlanit/JupiterPlanit/JupiterPlanit/obj/",
+        "projectPath": "E:\\JupiterPlanit\\JupiterPlanit\\JupiterPlanit.csproj",
+        "packagesPath": "C:\\Users\\PreetiK\\.nuget\\packages\\",
+        "outputPath": "E:\\JupiterPlanit\\JupiterPlanit\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/preetikadian/.config/NuGet/NuGet.Config"
+          "C:\\Users\\PreetiK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,11 +48,19 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
             },
             "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit.ConsoleRunner": {
               "target": "Package",
               "version": "[3.12.0, )"
             },
@@ -71,7 +78,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[94.0.4606.4101, )"
+              "version": "[93.0.4577.1500, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
@@ -93,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
