@@ -27,16 +27,15 @@
           "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
         }
       },
-      "Microsoft.Build.Framework/16.11.0": {
+      "Microsoft.Build.Framework/14.3.0": {
         "type": "package",
         "dependencies": {
-          "System.Security.Permissions": "4.7.0"
+          "System.Collections": "4.0.11",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Build.Framework.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Build.Framework.dll": {}
+          "ref/netstandard1.3/Microsoft.Build.Framework.dll": {}
         }
       },
       "Microsoft.CodeCoverage/16.5.0": {
@@ -1440,23 +1439,18 @@
         "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
       ]
     },
-    "Microsoft.Build.Framework/16.11.0": {
-      "sha512": "ZBKk+0W/fstpsYg7j1nNvqUQ4vjl4xetKwRf7/CCp956lckEOKuCpNO9yj0yO/UlmUaNGU+8csF+oYWIdOZGPw==",
+    "Microsoft.Build.Framework/14.3.0": {
+      "sha512": "GX3MdQMQ3YVx/jWerzd5vDW/VrcLxf80Ts4T9AVEUsrmL6wZK1YTGNX3jLapll+5Y7PBDbvf5R815A64hlEQ+g==",
       "type": "package",
-      "path": "microsoft.build.framework/16.11.0",
+      "path": "microsoft.build.framework/14.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "MSBuild-NuGet-Icon.png",
-        "lib/net472/Microsoft.Build.Framework.dll",
-        "lib/net472/Microsoft.Build.Framework.pdb",
-        "lib/net472/Microsoft.Build.Framework.xml",
-        "lib/netstandard2.0/Microsoft.Build.Framework.dll",
-        "lib/netstandard2.0/Microsoft.Build.Framework.pdb",
-        "lib/netstandard2.0/Microsoft.Build.Framework.xml",
-        "microsoft.build.framework.16.11.0.nupkg.sha512",
+        "lib/net45/Microsoft.Build.Framework.dll",
+        "microsoft.build.framework.14.3.0.nupkg.sha512",
         "microsoft.build.framework.nuspec",
-        "notices/THIRDPARTYNOTICES.txt"
+        "ref/net45/Microsoft.Build.Framework.dll",
+        "ref/netstandard1.3/Microsoft.Build.Framework.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.5.0": {
@@ -5220,7 +5214,7 @@
     ".NETCoreApp,Version=v3.1": [
       "DotNetSeleniumExtras.PageObjects.Core >= 3.11.2",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
-      "Microsoft.Build.Framework >= 16.11.0",
+      "Microsoft.Build.Framework >= 14.3.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit.ConsoleRunner >= 3.12.0",
@@ -5280,7 +5274,7 @@
           },
           "Microsoft.Build.Framework": {
             "target": "Package",
-            "version": "[16.11.0, )"
+            "version": "[14.3.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
